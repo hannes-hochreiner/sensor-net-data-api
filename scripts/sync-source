@@ -1,0 +1,1 @@
+rsync -arvz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --exclude=.git --exclude=lib --exclude=node_modules --progress . hc2:~/sensor-net-data-api

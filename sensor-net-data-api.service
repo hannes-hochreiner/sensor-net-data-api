@@ -1,0 +1,6 @@
+[Service]
+EnvironmentFile=/opt/sensor-net-data-api/sensor-net-data-api-env
+PassEnvironment=PGUSER PGDATABASE PGPASSWORD
+ExecStart=/usr/local/lib/nodejs/node-v10.15.1-linux-armv6l/bin/node /opt/sensor-net-data-api/lib/index.js
+StandardOutput=syslog
+SyslogIdentifier=sensor-net-data-api

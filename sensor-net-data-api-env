@@ -1,0 +1,2 @@
+PGUSER=sensor-net
+PGDATABASE=sensor-net
